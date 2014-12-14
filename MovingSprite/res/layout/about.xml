@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/about" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:text="About"
+        android:textColor="@android:color/white"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:gravity="center"
+        android:text="This game was developed by:\nAmr Saleh Mohamed.\nAbdelrahman Ali.\nBassem Mohamed.\nMohamed Ahmed Taher.\nFor any comments please don&apos;t hesitate to contact us at:\namrsalehmail@gmail.com\nmatrix_online2009@yahoo.com\nbeso_m2016@yahoo.com\nmohamed_taher567@yahoo.com"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+ android:background="@drawable/about" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="26dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:text="Modern Battle City takes you over a series of missions to conquer your enemy and save your target. You will live a story where your main goal is to protect the target and defeat enemy tanks in order to pass the level. Once your tank is completely destroyed or the target is shooted you will lose the game. We will help you by a bonus that appear after destroying an enemy wave. Try to balance between defence and attack and don&apos;t leave your base without protection."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:text="Help"
+        android:textColor="@android:color/white"
+        android:textSize="45sp" />
+
+</RelativeLayout>

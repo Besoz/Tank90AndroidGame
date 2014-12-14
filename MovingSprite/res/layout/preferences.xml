@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mylist" >
+    
+        <EditTextPreference
+        android:dialogTitle="Write level code"
+        android:key="map_code"
+        android:summary="Write level code"
+        android:title="Write code" >
+    </EditTextPreference>
+
+    <CheckBoxPreference 
+       android:tag="tagbox"
+       android:id="@+id/checkbox"
+        android:defaultValue="true"
+        android:key="sound_control"
+        android:summaryOff="Sound is OFF"
+        android:summaryOn="Sound is ON"
+        android:title="Sound setting" >
+    </CheckBoxPreference>
+
+</PreferenceScreen>
